@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: cursive;
+}
+
+body{
+    background-color: black;
+}
+
+#backimg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#first{
+    position: absolute;
+    border-radius: 20px;
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 160px;
+    margin-left: 425px;
+    display: flex;
+    font-size:large;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+
+}
+span{
+    padding-top: 25px;
+}
+
+h3{
+    color: tomato;
+}
+h2{
+    color:whitesmoke
+}
+
+#second{
+    position: absolute;
+    padding: 50px;
+    margin-top: 180px;
+    margin-left: 500px;
+}
+
+#sec{
+    position:absolute;
+}
+
+#modes{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: black;
+    /*background-color: wheat;*/
+
+}
+
+#easy1 , #easy2 ,#easy3{
+  margin: 20px 15px;
+  padding: 2px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#easy1:hover , #easy2:hover ,#easy3:hover{
+
+    background-color:black;
+    transition-duration: 1s;
+   
+}
+
+
+#mode{
+    width: 80px;
+    height:25px;
+    border-radius: 5px;
+}
+#mode:hover {
+    background-color: tomato;   
+}
+
+
+
+#game{
+    height: 500px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    background:url(bg.jpg) ;
+    background-size: contain;
+    overflow: hidden;
+}/*
+#bluecar{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 1s linear  infinite  ;
+
+}
+#bluecar img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}*/
+
+#bluecareasy{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 3s linear  infinite  ;
+}
+
+#bluecareasy img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}
+
+#bluecarmedium{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 0.9s linear  infinite  ;
+}
+
+#bluecarmedium img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}
+
+#bluecarhard{
+    height: 100px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 0.3s linear  infinite  ;
+}
+
+#bluecarhard img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+    
+}
+
+#racecar{
+    height: 100px;
+    width: 130px;
+    background-color: red;
+    position: relative;
+    top: 250px;
+    left: 130px;
+    text-align: center;
+}
+#racecar img{
+    height: 100px;
+}
+
+#result{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    /*background-color: cornflowerblue;*/
+    margin:  10rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display:none ;
+}
+#score{
+    font-size: 2.2rem;
+    color: brown;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: cursive;
+    text-transform: uppercase;
+    
+}
+#btn:hover {
+    background-color:darkgray;
+    color: black;
+}
